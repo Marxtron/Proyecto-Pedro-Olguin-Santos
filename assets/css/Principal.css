@@ -43,33 +43,63 @@ body{
             .btn1{
                 background-color: gray;
                 height: 1000px;
-                width: 100%;
+                width: 500px;
                 border-radius: 30px;
+                transition: all 2s;
             }
+                .btn1:hover{
+                height: 1100px;
+
+                }
+                
             .btn2{
                 background-color: blue;
                 height: 1000px;
-                width: 100%;
+                width: 500px;
                 border-radius: 30px;
+                transition: all 2s;
             }
+                .btn2:hover{
+                height: 1100px;
+
+                }
+
             .btn3{
                 background-color: beige;
                 height: 1000px;
-                width: 100%;
+                width: 500px;
                 border-radius: 30px;
+                transition: all 2s;
+
             }
+                .btn3:hover{
+                height: 1100px;
+
+                }
+
             .btn4{
                 background-color: aqua;
                 height: 1000px;
-                width: 100%;
+                width: 500px;
                 border-radius: 30px;
+                transition: all 2s;
             }
+                .btn4:hover{
+                height: 1100px;
+
+                }
+
             .btn5{
                 background-color: green;
                 height: 1000px;
-                width: 100%;
+                width: 500px;
                 border-radius: 30px;
+                transition: all 2s;
             }
+                .btn5:hover{
+                height: 1100px;
+
+                }
         .texto{
             display: flex;
             flex-direction: row;
