@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url(../img/fondo-adp.webp);
 
 }
 
@@ -8,7 +8,6 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        background-color: gray;
         height: 100px;
         margin: 10px;
 
@@ -65,7 +64,7 @@ body{
                 }
 
             .btn3{
-                background-color: beige;
+                background-image: url(../img/terrestres-adp.webp);
                 height: 1000px;
                 width: 500px;
                 border-radius: 30px;
