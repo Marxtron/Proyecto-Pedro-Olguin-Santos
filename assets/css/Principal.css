@@ -13,16 +13,16 @@ body{
 
     }
         .t{
-            color: rgb(3, 78, 3);
+            color: white;
             margin: 30px;
-            font-size: 70px;
+            font-size: 100px;
 
         }
         .r{
             font-size: 30px;
             text-decoration: none;
             margin: 30px;
-            color: blue;
+            color: white
         }
     .navbar{
         display: flex;
@@ -112,7 +112,7 @@ body{
                 width: 20%;
                 text-align: center;
                 margin: 2px;
-                background-color: gray;
+                color: white
 
             }
 
