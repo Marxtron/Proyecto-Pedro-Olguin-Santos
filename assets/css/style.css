@@ -37,11 +37,11 @@ body .navbar .form .a {
 body .navbar .form .btn1 {
   background-image: url(../img/domesticos-adp.webp);
   width: 500px;
-  height: 1000px;
+  height: 100px;
   border-radius: 30px;
   transition: all 2s;
 }
-body .navbar .form .btn1 .btn1:hover {
+body .navbar .form .btn1:hover {
   height: 1100px;
 }
 body .navbar .form .btn2 {
@@ -108,4 +108,4 @@ body footer {
 }
 body .d {
   color: white;
-}/*# sourceMappingURL=principal.css.map */
+}/*# sourceMappingURL=style.css.map */
