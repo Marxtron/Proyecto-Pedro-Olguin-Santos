@@ -1,0 +1,33 @@
+main{
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+        .p {
+            border-radius: 40px;
+            width: 400px;
+            height: 250px;
+            background-color: gray;
+                .f2 {
+                    margin: 20px;  
+
+                }
+                
+                .ter {
+                    color: white;
+                    align-content: center;
+                    padding: 20px;
+
+                }
+                .s {
+                    display: flex;
+                    justify-content: center;
+                    padding: 20px;
+
+                }
+        }
+    
+}      
+   
+        
+        

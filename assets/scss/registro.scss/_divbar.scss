@@ -1,0 +1,21 @@
+.divbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin: 10px;
+        .t{
+            color: white;
+            margin: 30px;
+            font-size: 70px;
+
+        }
+        .r{
+            font-size: 30px;
+            text-decoration: none;
+            margin: 30px;
+            color: white
+        }
+
+}
