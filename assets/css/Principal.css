@@ -1,6 +1,106 @@
 body {
   background-image: url(../img/fondo-adp.webp);
-  @import url(../index.scss/_divbar.scss);
-  @import url(../index.scss/_navbar.scss);
-  @import url(../index.scss/_footer.scss);
+}
+body .divbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+body .divbar .t {
+  color: white;
+  margin: 30px;
+  font-size: 120px;
+}
+body .divbar .r {
+  font-size: 40px;
+  text-decoration: none;
+  margin: 50px;
+  color: white;
+}
+body .navbar {
+  display: flex;
+  flex-direction: column;
+}
+body .navbar .form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  width: 99%;
+  height: 1150px;
+  text-decoration: none;
+}
+body .navbar .form .a {
+  width: 100%;
+}
+body .navbar .form .btn1 {
+  background-image: url(../img/domesticos-adp.webp);
+  width: 500px;
+  height: 1000px;
+  border-radius: 30px;
+  transition: all 2s;
+}
+body .navbar .form .btn1:hover {
+  height: 1100px;
+}
+body .navbar .form .btn2 {
+  background-image: url(../img/acuaticos-adp.webp);
+  height: 1000px;
+  width: 500px;
+  border-radius: 30px;
+  transition: all 2s;
+}
+body .navbar .form .btn2:hover {
+  height: 1100px;
+}
+body .navbar .form .btn3 {
+  background-image: url(../img/terrestres-adp.webp);
+  height: 1000px;
+  width: 500px;
+  border-radius: 30px;
+  transition: all 2s;
+}
+body .navbar .form .btn3:hover {
+  height: 1100px;
+}
+body .navbar .form .btn4 {
+  background-image: url(../img/aves-adp.webp);
+  height: 1000px;
+  width: 500px;
+  border-radius: 30px;
+  transition: all 2s;
+}
+body .navbar .form .btn4:hover {
+  height: 1100px;
+}
+body .navbar .form .btn5 {
+  background-image: url(../img/insectos-adp.webp);
+  height: 1000px;
+  width: 500px;
+  border-radius: 30px;
+  transition: all 2s;
+  text-decoration: none;
+}
+body .navbar .form .btn5:hover {
+  height: 1100px;
+}
+body .navbar .texto {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 30px;
+  background-color: gray;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+}
+body .d {
+  color: white;
 }/*# sourceMappingURL=principal.css.map */

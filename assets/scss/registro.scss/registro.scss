@@ -1,8 +1,71 @@
 body{
     background-image: url(../img/fondo-adp.webp);
-    @import url(./_divbar.scss);
-    @import url(./_main.scss);
-    @import url(./_footer.scss);
+    
+    .divbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        margin: 10px;
+            .t{
+                color: white;
+                margin: 30px;
+                font-size: 70px;
+    
+            }
+            .r{
+                font-size: 30px;
+                text-decoration: none;
+                margin: 30px;
+                color: white
+            }
+    
+    }
+
+    main{
+        height: 1200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+            .p {
+                border-radius: 40px;
+                width: 400px;
+                height: 250px;
+                background-color: gray;
+                    .f2 {
+                        margin: 20px;  
+    
+                    }
+                    
+                    .ter {
+                        color: white;
+                        align-content: center;
+                        padding: 20px;
+    
+                    }
+                    .s {
+                        display: flex;
+                        justify-content: center;
+                        padding: 20px;
+    
+                    }
+            }
+        
+    }      
+       
+    footer{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        height: 50px;
+            .d{
+                color: white;
+            }  
+            
+    }
+               
+        
 }
 
     

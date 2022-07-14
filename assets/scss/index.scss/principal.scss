@@ -1,7 +1,136 @@
+$widthBoton: 500px;
+$heightBoton: 1000px;
+$heightHover: 1100px;
+
 body{
     background-image: url(../img/fondo-adp.webp);
-    @import url(../index.scss/_divbar.scss);
-    @import url(../index.scss/_navbar.scss);
-    @import url(../index.scss/_footer.scss);
+    .divbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 150px;
+        
+        .t{
+            color: white;
+            margin: 30px;
+            font-size: 120px;
+    
+        }
+        
+        .r{
+            font-size: 40px;
+            text-decoration: none;
+            margin: 50px;
+            color: white
+        }
+    }
 
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        .form{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: stretch;
+            width: 99%;
+            height: 1150px;
+            text-decoration: none;
+    
+            .a{
+                width: 100%;
+            }
+    
+            .btn1{
+                background-image: url(../img/domesticos-adp.webp);
+                width: $widthBoton;
+                height: $heightBoton;
+                border-radius: 30px;
+                transition: all 2s;
+    
+                &:hover{
+                    height: $heightHover;
+    
+                    }
+    
+            }
+                
+            .btn2{
+                background-image: url(../img/acuaticos-adp.webp);
+                height: $heightBoton;
+                width: $widthBoton;
+                border-radius: 30px;
+                transition: all 2s;
+    
+                &:hover{
+                    height: $heightHover;
+    
+                    }
+            }
+    
+            .btn3{
+                background-image: url(../img/terrestres-adp.webp);
+                height: $heightBoton;
+                width: $widthBoton;
+                border-radius: 30px;
+                transition: all 2s;
+    
+                &:hover{
+                    height: $heightHover;
+    
+                    }
+    
+            }
+    
+            .btn4{
+                background-image: url(../img/aves-adp.webp);
+                height: $heightBoton;
+                width: $widthBoton;
+                border-radius: 30px;
+                transition: all 2s;
+    
+                &:hover{
+                    height: $heightHover;
+    
+                    }
+            }
+    
+            .btn5{
+                background-image: url(../img/insectos-adp.webp);
+                height: $heightBoton;
+                width: $widthBoton;
+                border-radius: 30px;
+                transition: all 2s;
+                text-decoration: none;
+
+    
+                &:hover{
+                    height: $heightHover;
+    
+                    }
+            }
+        }
+                
+        .texto{
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            text-decoration: none;
+            margin: 5px;
+            border-radius: 30px;
+            background-color: gray;
+        }
+        
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        height: 50px;
+    }
+        .d{
+            color: white;
+        }
 }
