@@ -29,6 +29,7 @@ body{
     .navbar{
         display: flex;
         flex-direction: column;
+
         .form{
             display: flex;
             flex-direction: row;
@@ -36,10 +37,11 @@ body{
             align-content: stretch;
             width: 99%;
             height: 1150px;
-            text-decoration: none;
     
             .a{
                 width: 100%;
+                text-decoration: none;
+
             }
     
             .btn1{
