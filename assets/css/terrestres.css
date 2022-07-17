@@ -57,15 +57,16 @@ body main div {
 body main div .cont {
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
   width: 60%;
   margin: 10px;
+  padding: 20px;
 }
 body main div .cont .tarjeta {
   flex-direction: column;
   align-content: center;
+  background-color: whitesmoke;
   border: 5px;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
 }
 body main div .cont .tarjeta img {
@@ -75,6 +76,7 @@ body main div .cont .tarjeta img {
 body main div .cont .tarjeta a {
   justify-content: center;
   font-size: 60px;
+  margin: 10px;
 }
 body main div .box {
   display: flex;

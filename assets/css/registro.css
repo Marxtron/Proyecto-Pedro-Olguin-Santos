@@ -1,43 +1,70 @@
 body {
-  background-image: url(../img/fondo-adp.webp);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
 }
-body .divbar {
+body header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+body header .divbar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-color: gray;
+  width: 80%;
+  border-radius: 20px;
   height: 100px;
   margin: 10px;
 }
-body .divbar .t {
+body header .divbar .t {
   color: white;
   margin: 30px;
   font-size: 70px;
 }
-body .divbar .r {
+body header .divbar .r {
   font-size: 30px;
   text-decoration: none;
   margin: 30px;
   color: white;
 }
 body main {
-  height: 1200px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  height: 1100px;
+  width: 80%;
+}
+body main img {
+  border-radius: 40px;
+  margin-right: 40px;
+  width: 600px;
+  height: 600px;
 }
 body main .p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   border-radius: 40px;
-  width: 400px;
-  height: 250px;
+  width: 100%;
   background-color: gray;
+  width: 600px;
+  height: 600px;
 }
 body main .p .f2 {
-  margin: 20px;
+  width: 100%;
+}
+body main .p .f2 .box {
+  height: 30px;
+  width: 40%;
 }
 body main .p .ter {
   color: white;
-  align-content: center;
+  font-size: 20px;
   padding: 20px;
 }
 body main .p .s {
@@ -46,8 +73,8 @@ body main .p .s {
   padding: 20px;
 }
 body footer {
-  display: flex;
-  justify-content: center;
+  width: 80%;
+  text-align: center;
   background-color: black;
   height: 50px;
 }
